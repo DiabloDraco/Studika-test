@@ -386,7 +386,6 @@ h1, h2, h3, h4, h5, h6, p {
 .header {
   background-color: #FFFFFF;
 }
-
 .header__top {
   display: flex;
   align-items: center;
@@ -438,21 +437,11 @@ h1, h2, h3, h4, h5, h6, p {
   align-items: center;
   gap: 7px;
 }
-<<<<<<< HEAD
-
-=======
->>>>>>> e430b5002fcba9d24ebfb316df28fa11b02c7903
 .header__bottom {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   padding-bottom: 18.5px;
   margin-bottom: 32px;
 }
-<<<<<<< HEAD
-
-=======
->>>>>>> e430b5002fcba9d24ebfb316df28fa11b02c7903
 .header__nav-list {
   display: flex;
   align-items: center;
@@ -612,13 +601,7 @@ h1, h2, h3, h4, h5, h6, p {
 }
 .hero__img-bottom {
   margin-right: 8px;
-<<<<<<< HEAD
 }
-
 .hero__img-bottom-2 {
   margin-right: 15px;
-}
-/*# sourceMappingURL=main.css.map */
-=======
 }/*# sourceMappingURL=main.css.map */
->>>>>>> e430b5002fcba9d24ebfb316df28fa11b02c7903
