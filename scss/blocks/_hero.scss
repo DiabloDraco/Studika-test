@@ -10,7 +10,7 @@
         background-position: center;
         width: 1216px;
         height: 350px;
-        margin-bottom: 24px;
+        padding-bottom: 24px;
     }
     
     &__img {
@@ -76,6 +76,7 @@
     &__bottom-heading {
         max-width: 927px;
         width: 100%;
+        font-family: 'Formular';
         font-style: normal;
         font-weight: 500;
         font-size: 31px;
