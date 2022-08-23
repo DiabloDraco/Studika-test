@@ -1,0 +1,82 @@
+.header {
+    &__top {
+        display: flex;
+        align-items: center;
+        padding-top: 24px;
+        padding-bottom: 24px;
+    }
+
+    &__burger {
+        display: none;
+    }
+
+    &__logo {
+        margin-right: 16px;
+    }
+
+    &__right {
+        display: flex;
+        align-items: center;
+    }
+
+    &__location {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        margin-right: 61px;
+    }
+
+    &__find {
+        width: 592px;
+        border: none;
+        padding: 13px 8px 13px 48px;
+        background: #F1F1F1;
+        text-align: center;
+        border-radius: 100px;
+        margin-right: 183px;
+        position: relative;
+        &::after{
+            content: "";
+            display: inline-block;
+            position: absolute;
+            background-image: url("./../../images/find.svg");
+            background-repeat: no-repeat;
+            background-size: contain;
+            background-position: center;
+            width: 32px;
+            height: 32px;
+            left: 8px;
+        }
+    }
+
+    &__likes {
+        display: flex;
+        align-items: center;
+    }
+
+    &__profile {
+        display: flex;
+        align-items: center;
+    }
+
+    &__bottom {
+    }
+
+    &__nav {
+    }
+
+    &__nav-list {
+        display: flex;
+        align-items: center;
+        gap: 50px;
+    }
+
+    &__nav-item {
+    }
+
+    &__nav-link {
+    }
+
+    &__arrow {
+    }
+}

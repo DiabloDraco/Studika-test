@@ -61,4 +61,34 @@
         border-radius: 5px;
         cursor: pointer;
     }
+    
+    &__bottom-wrapper {
+        display: flex;
+        align-items: center;
+        
+    }
+    
+    &__bottom-heading {
+        max-width: 927px;
+        width: 100%;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 31px;
+        line-height: 36px;
+        color: #222222;
+    }
+    
+    &__button-bottom {
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 22px;
+        color: #222222;
+        border-radius: 30px;
+    }
+    
+    &__img-bottom {
+        margin-right: 8px;
+    }
 }
