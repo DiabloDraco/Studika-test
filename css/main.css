@@ -517,6 +517,7 @@ h1, h2, h3, h4, h5, h6, p {
   background-position: center;
   width: 1216px;
   height: 350px;
+  margin-bottom: 24px;
 }
 
 .hero__img {
@@ -569,6 +570,11 @@ h1, h2, h3, h4, h5, h6, p {
   cursor: pointer;
 }
 
+.hero__bottom {
+  background: #FFFFFF;
+  border-radius: 0px 0px 10px 10px;
+}
+
 .hero__bottom-wrapper {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -596,6 +602,10 @@ h1, h2, h3, h4, h5, h6, p {
   line-height: 22px;
   color: #222222;
   border-radius: 30px;
+  padding-top: 9px;
+  padding-right: 16px;
+  padding-bottom: 9px;
+  padding-left: 16px;
 }
 
 .hero__img-bottom {
