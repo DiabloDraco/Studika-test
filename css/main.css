@@ -416,8 +416,21 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 .container {
-  max-width: 1920px;
+  max-width: 1216px;
   margin-left: auto;
   margin-right: auto;
+}
+
+.hero__top {
+  background-image: url("./../../images/bg-img.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 1216px;
+  height: 350px;
+}
+
+.hero__img {
+  padding-top: 24px;
+  padding-left: 24px;
 }
 /*# sourceMappingURL=main.css.map */

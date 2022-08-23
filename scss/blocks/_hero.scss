@@ -1,9 +1,19 @@
 .hero {
     
     &__container {
-        
+      
     }
     
     &__top {
+        background-image: url("./../../images/bg-img.png");
+        background-repeat: no-repeat;
+        background-position: center;
+        width: 1216px;
+        height: 350px;
+    }
+
+    &__img {
+        padding-top: 24px;
+        padding-left: 24px;
     }
 }
