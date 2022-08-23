@@ -383,6 +383,9 @@ h1, h2, h3, h4, h5, h6, p {
   margin-right: auto;
 }
 
+.header {
+  background-color: #FFFFFF;
+}
 .header__top {
   display: flex;
   align-items: center;
@@ -433,6 +436,10 @@ h1, h2, h3, h4, h5, h6, p {
   display: flex;
   align-items: center;
   gap: 7px;
+}
+.header__bottom {
+  display: flex;
+  padding-bottom: 18.5px;
 }
 .header__nav-list {
   display: flex;
