@@ -10,7 +10,6 @@
         background-position: center;
         width: 1216px;
         height: 350px;
-        padding-bottom: 24px;
     }
     
     &__img {
@@ -19,8 +18,10 @@
     }
     
     &__btn-wrapper {
+        display: flex;
+        gap: 16px;
         margin-top: 214px;
-        margin-left: 714px;
+        margin-left: 684px;
     }
     
     &__btn-1 {
@@ -64,6 +65,7 @@
     }
     
     &__bottom {
+        padding-top: 24px;
         background: #FFFFFF;
         border-radius: 0px 0px 10px 10px;
     }
@@ -74,8 +76,7 @@
     }
     
     &__bottom-heading {
-        max-width: 927px;
-        width: 100%;
+        width: 850px;
         font-family: 'Formular';
         font-style: normal;
         font-weight: 500;
@@ -96,12 +97,14 @@
         padding-right: 16px;
         padding-bottom: 9px;
         padding-left: 16px;
+        margin-right: 5px;
+        margin-left: 115px;
     }
     
     &__img-bottom {
         margin-right: 8px;
     }
-
+    
     &__img-bottom-2 {
         margin-right: 15px;
     }
