@@ -430,7 +430,39 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 .hero__img {
-  padding-top: 24px;
+  margin-top: 24px;
+  margin-left: 24px;
+}
+
+.hero__btn-1 {
+  font-family: 'Formular';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  border: none;
+  background: #0656B4;
+  border-radius: 5px;
+  opacity: none;
+  padding-top: 16px;
+  padding-right: 24px;
+  padding-bottom: 16px;
   padding-left: 24px;
+}
+
+.hero__btn-2 {
+  border: none;
+  opacity: none;
+  font-family: 'Formular';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #0656B4;
 }
 /*# sourceMappingURL=main.css.map */
