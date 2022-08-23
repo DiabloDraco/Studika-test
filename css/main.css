@@ -422,6 +422,9 @@ h1, h2, h3, h4, h5, h6, p {
   margin-right: auto;
 }
 
+.header {
+  background-color: #FFFFFF;
+}
 .header__top {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -504,7 +507,14 @@ h1, h2, h3, h4, h5, h6, p {
           align-items: center;
   gap: 7px;
 }
+<<<<<<< HEAD
 
+=======
+.header__bottom {
+  display: flex;
+  padding-bottom: 18.5px;
+}
+>>>>>>> ca8e6a5c8196f74a5603d447eb06daf91b9a8973
 .header__nav-list {
   display: -webkit-box;
   display: -ms-flexbox;
