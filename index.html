@@ -12,17 +12,19 @@
 		<div class="container">
 			<div class="header__top">
 				<button class="header__burger"><img src="./images/burger.svg" alt="" width="32" height="32"></button>
-
+				
 				<a class="header__logo" href="#">
 					<img src="./images/logo.svg" alt="" width="88" height="32">
 				</a>
-	
+				
 				<div class="header__right">
 					<div class="header__location">
 						<img src="./images/geo.svg" alt="" width="32" height="32">
 						<p>Москва</p>
 					</div>
-					<input class="header__find" type="text" placeholder="Учебное заведение, специальность или профессия">
+					<div class="header__input-wrapper">
+						<input id="find" class="header__find" type="text" placeholder="Учебное заведение, специальность или профессия"><label for="find"><img class="header__find-icon" src="./images/find.svg" alt=""></label>
+					</div>
 				</div>	
 				<div class="header__likes">
 					<img src="./images/like.svg" alt="" width="32" height="32">
@@ -94,7 +96,7 @@
 				<div class="hero__container">
 					<div class="hero__top">
 						<img class="hero__img" src="./images/piit-lototip.svg" alt="piit-logo" width="40" height="40">
-
+						
 						<div class="hero__btn-wrapper">
 							<button class="hero__btn-1">оставить отзыв</button>
 							<button class="hero__btn-2">проверить шансы поступить</button>
