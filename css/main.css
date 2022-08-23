@@ -514,6 +514,27 @@ h1, h2, h3, h4, h5, h6, p {
   margin-left: -30px;
 }
 
+.root {
+  margin-bottom: 32px;
+}
+.root__list {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.root__breadcumb-link {
+  text-decoration: none;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 20px;
+  color: #767676;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
 .hero__top {
   background-image: url("./../../images/bg-img.png");
   background-repeat: no-repeat;

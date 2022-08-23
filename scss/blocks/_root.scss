@@ -1,0 +1,21 @@
+.root {
+    margin-bottom: 32px;
+    &__list {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+    }
+    
+    &__breadcumb-link {
+        text-decoration: none;
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 20px;
+        color: #767676;
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+    }
+}
