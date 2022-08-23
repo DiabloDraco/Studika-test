@@ -65,6 +65,7 @@
     &__bottom {
         display: flex;
         padding-bottom: 18.5px;
+        margin-bottom: 32px;
     }
     
     &__nav {
@@ -80,6 +81,19 @@
     }
     
     &__nav-link {
+        width: 76px;
+        height: 19px;
+        text-decoration: none;
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 19px;
+        text-align: center;
+        color: #222222;
+        flex: none;
+        order: 0;
+        flex-grow: 0;
     }
     
     &__arrow {

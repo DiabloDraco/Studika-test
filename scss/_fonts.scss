@@ -2,7 +2,7 @@
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 400;
-    src: url('../fonts/open-sans-v34-latin-regular.woff2') format('woff2')
+    src: url('../fonts/open-sans-v34-latin-regular.woff2') format('woff2'),
          url('../fonts/open-sans-v34-latin-regular.woff') format('woff'); 
   }
 
@@ -27,7 +27,7 @@
      font-family: 'Formular';
      font-style: normal;
      font-weight: 400;
-     src: url('./../fonts/Formular.woff2') format('woff2')
+     src: url('./../fonts/Formular.woff2') format('woff2'),
           url('./../fonts/Formular.woff') format('woff'); 
    }
 
@@ -35,6 +35,6 @@
     font-family: 'Formular';
     font-style: normal;
     font-weight: 500;
-    src: url('./../fonts/Formular-Medium.woff2') format('woff2')
+    src: url('./../fonts/Formular-Medium.woff2') format('woff2'),
          url('./../fonts/Formular-Medium.woff') format('woff'); 
   }
