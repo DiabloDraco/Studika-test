@@ -10,6 +10,7 @@
         background-position: center;
         width: 1216px;
         height: 350px;
+        margin-bottom: 24px;
     }
     
     &__img {
@@ -62,10 +63,14 @@
         cursor: pointer;
     }
     
+    &__bottom {
+        background: #FFFFFF;
+        border-radius: 0px 0px 10px 10px;
+    }
+    
     &__bottom-wrapper {
         display: flex;
         align-items: center;
-        
     }
     
     &__bottom-heading {
@@ -86,6 +91,10 @@
         line-height: 22px;
         color: #222222;
         border-radius: 30px;
+        padding-top: 9px;
+        padding-right: 16px;
+        padding-bottom: 9px;
+        padding-left: 16px;
     }
     
     &__img-bottom {
